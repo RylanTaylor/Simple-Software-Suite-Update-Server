@@ -1,0 +1,33 @@
+{
+  "name": "simple-software-suite-update-server",
+  "version": "1.0.0",
+  "description": "The update server for the Simple Software Suite, allowing version management on all clients.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RylanTaylor/Simple-Software-Suite-Update-Server.git"
+  },
+  "keywords": [
+    "software",
+    "update",
+    "server",
+    "express",
+    "simple"
+  ],
+  "author": "Rylan Taylor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RylanTaylor/Simple-Software-Suite-Update-Server/issues"
+  },
+  "homepage": "https://github.com/RylanTaylor/Simple-Software-Suite-Update-Server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "glob": "^7.1.6"
+  },
+  "devDependencies": {
+    "eslint": "^7.16.0"
+  }
+}
